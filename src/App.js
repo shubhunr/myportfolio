@@ -7,12 +7,12 @@ import Experience from './Experience';
 import Education from './Education';
 import Skills from './Skills';
 import Project from './Projects';
-import Side from './Side';
+
 
 function App() {
   return (
     <div className="App">
-        <Side />
+
         <Nav />
         <Header />
         <Experience />
