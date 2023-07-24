@@ -1,7 +1,7 @@
 import React from "react";
 import {  Icon, HStack } from '@chakra-ui/react';
-import { FaReact, FaNode, FaGithubAlt } from "react-icons/fa";
-import { SiNextdotjs, SiCss3 } from "react-icons/si";
+import { FaReact, FaGithubAlt } from "react-icons/fa";
+import {  SiCss3 } from "react-icons/si";
 import { ImHtmlFive, ImGit } from "react-icons/im";
 import { SiChakraui, SiJavascript, SiPython } from "react-icons/si";
 import { BsFillBootstrapFill } from "react-icons/bs";
