@@ -1,13 +1,15 @@
 
 import React from 'react'
-import {  Icon, Text, Box,  HStack } from '@chakra-ui/react';
+import {  Icon, HStack, Link,} from '@chakra-ui/react';
 import { BsFacebook, BsLinkedin } from "react-icons/bs";
 import { AiFillInstagram, AiFillTwitterCircle, AiFillGithub } from "react-icons/ai";
+
+
 
 function Header() {
   return (
     <header id='home'>
-        <div className='heading'>
+        <div className='heading' >
             <h3>Hello, I'm</h3>
             <p className='name'>Shubham <b className='title'>Roy</b></p>
             <h3>a front-end UI/UX Developer</h3>
@@ -17,9 +19,10 @@ function Header() {
             <div>
         <HStack mt='5%'><Icon id="dev" as={BsFacebook} boxSize="40px"></Icon>
         <Icon id="space" as={BsLinkedin} boxSize="40px"></Icon>
-        <Icon id="space" as={AiFillInstagram} boxSize="40px"></Icon>
+        <Link href='https://www.instagram.com/official_shubhamroy/?next=%2F'><Icon id="space" as={AiFillInstagram} boxSize="40px"></Icon></Link>
         <Icon id="space" as={AiFillTwitterCircle} boxSize="40px"></Icon>
-        <Icon id="space" as={AiFillGithub} boxSize="40px" ></Icon></HStack>
+        <Link href='https://github.com/shubhunr'><Icon id="space" as={AiFillGithub} boxSize="40px" ></Icon></Link>
+        </HStack>
         </div> 
         </div>
         

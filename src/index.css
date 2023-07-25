@@ -23,7 +23,7 @@ font-family : source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace
 .heading {
 text-align : left;
 padding-left : 400px;
-margin-top : 12%;
+margin-top : 10%;
 letter-spacing : 2px;
 }
 .name {
@@ -34,8 +34,13 @@ text-transform : uppercase;
 .experience {
 text-align : left;
 margin-left : 400px;
-margin-top : 400px;
+margin-top : 10%;
 letter-spacing : 1.5px;
+}
+.education{
+	text-align : left;
+	margin-left : 400px;
+	letter-spacing : 1.5px;
 }
 .description {
 color : grey;
@@ -48,15 +53,16 @@ color : green;
 scroll-margin : 300px;
 }
 #experience {
-scroll-margin : 150px;
+scroll-margin : 100px;
 }
 #education {
-scroll-margin : 200px;
+scroll-margin : 100px;
 }
 #skills {
-scroll-margin : 175px;
+scroll-margin : 90px;
 }
 #projects {
+scroll-margin: 195px;
 margin-bottom : 350px;
 }
 #dev {
@@ -139,6 +145,7 @@ align-items : center;
 	#experience,
 	.experience {
 	  margin-left: 30px;
+	  margin-top: 15%;
 	}
 	#mobile {
 	  display: none;
@@ -176,6 +183,7 @@ align-items : center;
 	nav a {
 	  font-size: 1.5rem;
 	}
+	
   }
   
   /* Media Query for max-width: 490px */
