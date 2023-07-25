@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-image: url(../src/Assets/v617batch2-kul-05-technology.jpg);
+  background-repeat:repeat;
 }
 
 .App-logo {
@@ -36,3 +38,4 @@
     transform: rotate(360deg);
   }
 }
+

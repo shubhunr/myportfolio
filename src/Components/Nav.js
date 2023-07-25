@@ -3,7 +3,7 @@ import { Image, VStack, Icon, Text, Box,  HStack, Link, Stack } from '@chakra-ui
 import { AiFillHome, AiOutlineProject, AiFillTrophy } from "react-icons/ai";
 import { TbCertificate } from "react-icons/tb";
 import { FiSettings } from "react-icons/fi";
-import DP from '../Assets/shubham professional white bg.png'
+import DP from '../Assets/shubham professional white bg-fotor-bg-remover-20230725213057.png'
 
 
 function Nav() {
