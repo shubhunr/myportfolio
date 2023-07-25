@@ -3,7 +3,7 @@ import { Image, VStack, Icon, Text, Box,  HStack, Link, Stack } from '@chakra-ui
 import { AiFillHome, AiOutlineProject, AiFillTrophy } from "react-icons/ai";
 import { TbCertificate } from "react-icons/tb";
 import { FiSettings } from "react-icons/fi";
-import Me from '../Assets/IMG_20200618_120529n_edited.webp'
+import DP from '../Assets/shubham professional white bg.png'
 
 
 function Nav() {
@@ -11,7 +11,7 @@ function Nav() {
     <>
     <Stack id="sidebar">
       <VStack id="bar" width="300px" height="1080px" >
-        <Image className="me" src={Me} />
+        <Image className="me" src={DP} />
         <Box><Link href="#home" className="nav"><HStack mt='30%'><Icon as={AiFillHome} boxSize="40px" color="#551a8b"></Icon><Text color='white'>Home</Text></HStack></Link>
         <Link href='#experience' className="nav"><HStack mt='10%'><Icon  as={AiFillTrophy} boxSize="40px" color="#551a8b"></Icon><Text color='white'>Experience</Text></HStack></Link>
         <Link href='#education' className="nav"><HStack mt='10%'><Icon as={TbCertificate} boxSize="40px" color="#551a8b"></Icon><Text color='white'>Education</Text></HStack></Link>
