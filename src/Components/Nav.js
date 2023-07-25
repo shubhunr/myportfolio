@@ -1,18 +1,14 @@
 import React from "react";
-import { Image, VStack, Icon, Text, Box,  HStack, Link, Stack,Spacer, Flex } from '@chakra-ui/react';
+import { Image, VStack, Icon, Text, Box,  HStack, Link, Stack } from '@chakra-ui/react';
 import { AiFillHome, AiOutlineProject, AiFillTrophy } from "react-icons/ai";
 import { TbCertificate } from "react-icons/tb";
-import { TiPointOfInterestOutline } from "react-icons/ti";
 import { FiSettings } from "react-icons/fi";
-import { HiMenu } from "react-icons/hi";
 import Me from '../Assets/IMG_20200618_120529n_edited.webp'
 
 
 function Nav() {
   return (
     <>
-    <input type="checkbox" id="click" />
-    <label for="#click" id="mobile"><Icon  as={HiMenu} boxSize="40px" /></label>
     <Stack id="sidebar">
       <VStack id="bar" width="300px" height="1080px" >
         <Image className="me" src={Me} />

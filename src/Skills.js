@@ -14,8 +14,6 @@ function Skills() {
       <h2 className='post'>Development Frameworks</h2>
       <HStack mt="5%">
         <Icon id="dev" as={FaReact} boxSize="40px"></Icon>
-        <Icon id="space" as={FaNode} boxSize="40px"></Icon>
-        <Icon id="space" as={SiNextdotjs} boxSize="40px"></Icon>
         <Icon id="space" as={ImHtmlFive} boxSize="40px"></Icon>
         <Icon id="space" as={SiCss3} boxSize="40px"></Icon>
         <Icon id="space" as={SiChakraui} boxSize="40px"></Icon>
